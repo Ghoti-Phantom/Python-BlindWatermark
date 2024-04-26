@@ -29,7 +29,7 @@
 >   
 > 正方形图像矩阵运算公式：  
 > 
-> (x′y′)\=\[1112\](xy)mod(N)\\binom{x'}{y'}=\\begin{bmatrix} 1 & 1 \\\\ 1 & 2 \\end{bmatrix}\\binom{x}{y} mod(N)  
+> \binom{x'}{y'}=\begin{bmatrix} 1 & 1 \\ 1 & 2 \\ \end{bmatrix}\binom{x}{y}mod(N)
 > 
 > 多项式运算公式：  
 > 
