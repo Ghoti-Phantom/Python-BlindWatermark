@@ -33,7 +33,7 @@
 > 
 > 多项式运算公式：  
 > 
-> ${x′\=(x+y)mod(N)y′\=(x+2y)mod(N)\\begin{cases} x'=(x+y)mod(N)\\\\ y'=(x+2y)mod(N) \\end{cases}  $
+> $`{x′\=(x+y)mod(N)y′\=(x+2y)mod(N)\\begin{cases} x'=(x+y)mod(N)\\\\ y'=(x+2y)mod(N) \\end{cases}  `$
 > 
 > N为正方形图像边长，(x', y')是像素点(x, y)变换后的坐标。  
 >   
@@ -43,11 +43,11 @@
 
 > 这两个参数可用于评估算法性能。峰值信噪比（PSNR）用来对比嵌入前后图像的区别，表示宿主图像的失真情 况，PSNR>30dB时，人眼不可察觉变化；归一化系数（NC）用来衡量原水印与提取水印的相似度。计算公式如下：  
 > 
-> PSNR\=$10lgN2×maxI′(x,y)2∑(I(x,y)−I′(x,y))  $
+> PSNR\=$`10lgN2×maxI′(x,y)2∑(I(x,y)−I′(x,y))  `$
 >   
-> PSNR=$10lg\\frac{{N}^{2}×max{I'(x,y)}^{2}}{∑(I(x,y)-I'(x,y))}  $
+> PSNR=$`10lg\\frac{{N}^{2}×max{I'(x,y)}^{2}}{∑(I(x,y)-I'(x,y))}  `$
 >   
-> NC\=$∑W′(u,v)W(u,v)∑W(u,v)2NC=\\frac{∑W'(u,v)W(u,v)}{∑{W(u,v)}^{2}}  $
+> NC\=$`∑W′(u,v)W(u,v)∑W(u,v)2NC=\\frac{∑W'(u,v)W(u,v)}{∑{W(u,v)}^{2}}  `$
 >   
 > 
 > W(u, v)表示原始水印的二值像素值，I(x, y)表示原 始图像像素值，I'(x, y)表示嵌入水印后载体图像的灰度值， W'(u, v)表示提取水印像素值。
