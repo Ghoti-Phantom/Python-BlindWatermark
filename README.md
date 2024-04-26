@@ -96,9 +96,9 @@
 
 > > 水印已经注入原图后，现在我们手中的依然是8\*8像素块，且经过了二级离散小波变换。故此时只需做小波逆变换，再将所有像素块拼合 起来，即可得到注入了盲水印的灰度图。  
 > > 
-> > <center>原图：![](images/Lena.bmp)</center>
+> > 原图：![](images/Lena.bmp)
 > >
-> > <center>注入水印后：![](images/result.jpg)</center>  
+> > 注入水印后：![](images/result.jpg) 
 > > 
 > >   
 > 
